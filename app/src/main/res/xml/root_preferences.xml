@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<androidx.preference.PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:minHeight="0dp" title="General Settings">
+    <!-- app:iconSpaceReserved="false" -->
+
+    <ListPreference
+            android:key="distance_unit"
+            android:title="@string/distance_unit_string"
+            android:summary="%s"
+
+            android:dialogTitle="@string/distance_unit_desc_string"
+
+            android:entries="@array/unit_of_measurement_entries"
+            android:entryValues="@array/unit_of_measurement_values"
+
+            android:defaultValue="metric"
+
+            android:icon="@drawable/ic_unit"
+    />
+    <ListPreference
+            android:key="location"
+            android:title="@string/location_string"
+            android:summary="%s"
+
+            android:dialogTitle="@string/location_desc_string"
+
+            android:entries="@array/location_entries"
+            android:entryValues="@array/location_values"
+
+            android:defaultValue="hk"
+
+            android:icon="@drawable/ic_location"
+    />
+    <!--
+    <ListPreference
+            android:key="theme"
+            android:title="@string/theme_string"
+            android:summary="%s"
+
+            android:dialogTitle="@string/location_desc_string"
+
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+
+            android:defaultValue="AppTheme"
+
+            android:icon="@drawable/ic_theme"
+    />
+    -->
+    <PreferenceCategory app:title="@string/about_string">
+        <Preference
+                android:key="copyright"
+                android:title="@string/copyright_string"
+                android:summary="Created by HF, 2019"
+        />
+    </PreferenceCategory>
+    <!-- Using list instead of boolean switch to allow option for adding uncommon units of measure such as yards, etc. -->
+    <!--
+    <resources>
+    <string-array name="pref_measureUnit">
+        <item>Meters per Second (m/s)</item>
+        <item>Feet per Second (ft/s)</item>
+    </string-array>
+    </resources>
+    -->
+
+
+    <!--
+    <PreferenceCategory
+            app:title="@string/sync_header">
+
+        <SwitchPreferenceCompat
+                app:key="sync"
+                app:title="@string/sync_title"/>
+
+        <SwitchPreferenceCompat
+                app:key="attachment"
+                app:title="@string/attachment_title"
+                app:summaryOn="@string/attachment_summary_on"
+                app:summaryOff="@string/attachment_summary_off"
+                app:dependency="sync"/>
+
+    </PreferenceCategory>
+    -->
+</androidx.preference.PreferenceScreen>

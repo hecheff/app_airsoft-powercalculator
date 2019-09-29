@@ -1,0 +1,79 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="unit_of_measurement_entries">
+        <item>@string/metric_string</item>
+        <item>@string/imperial_string</item>
+    </string-array>
+    <string-array name="unit_of_measurement_values">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+    <string-array name="language_entries">
+        <item>System Default</item>
+        <item>English</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="language_values">
+        <item>default</item>
+        <item>en</item>
+        <item>ja</item>
+    </string-array>
+
+    <string-array name="location_entries">
+        <item>@string/location_armenia_string</item>
+        <item>@string/location_canada_string</item>
+        <item>@string/location_france_string</item>
+        <item>@string/location_germany_string</item>
+        <item>@string/location_hongkong_string</item>
+        <item>@string/location_japan_string</item>
+        <item>@string/location_uk_fullauto_string</item>
+        <item>@string/location_uk_semiauto_string</item>
+        <item>@string/location_usa_string</item>
+        <item>@string/location_disabled_string</item>
+    </string-array>
+    <string-array name="location_values">
+        <item>am</item>
+        <item>ca</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>hk</item>
+        <item>ja</item>
+        <item>uk_auto</item>
+        <item>uk_semi</item>
+        <item>us</item>
+        <item>disable</item>
+    </string-array>
+    <integer-array name="location_jouleValues">
+        <!-- Divide values by 1000 to get actual Joule value -->
+        <item>3000</item>
+        <item>5700</item>
+        <item>2000</item>
+        <item>7500</item>
+        <item>2000</item>
+        <item>980</item>
+        <item>1300</item>
+        <item>2500</item>
+        <item>2800</item>
+        <item>999999999</item>
+    </integer-array>
+
+    <string-array name="theme_entries">
+        <item>Default</item>
+        <item>Droid Terminal</item>
+    </string-array>
+    <string-array name="theme_values">
+        <item>AppTheme</item>
+        <item>iDroid_AppTheme</item>
+    </string-array>
+</resources>

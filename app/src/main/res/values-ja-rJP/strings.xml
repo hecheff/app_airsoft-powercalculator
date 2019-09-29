@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BB弾速・威力用計算機</string>
+    <string name="about_string">アプリについて</string>
+    <string name="settings_string">設定</string>
+    <string name="calculate_string">計算</string>
+    <string name="bb_velocity_string">初速</string>
+    <string name="est_effective_range_string">推定有効飛距離</string>
+    <string name="bb_drop_tolerance_string">BB弾落下誤差</string>
+    <string name="bb_mass_string">BB弾の重さ</string>
+    <string name="bb_power_joules_string">BB弾の威力（ジュール）</string>
+    <string name="adjust_drop_dist_string">落下距離調整</string>
+    <string name="power_string">威力</string>
+    <string name="powerJoules_string">威力（ジュール）</string>
+    <string name="select_input_string">記入数字選択</string>
+    <string name="convert_string">変換</string>
+    <string name="options_coming_soon_string">近日公開！</string>
+    <string name="input_value_here_string">数字を記入</string>
+    <string name="estimate_disclaimer_string">BB弾の推定有効飛距離は、ホップアップなしの状態で設定された落下距離に着くまでの飛距離となります。\nなお、現場の風速・風向・空気抵抗・ホップアップの設定と品質・インナーバレル等により、実際の飛距離に影響されことをご承知ください。</string>
+    <string name="_0_20g_string">0.20g (デフォルト)</string>
+    <string name="distance_unit_string">単位系</string>
+    <string name="distance_unit_desc_string">距離を測る単位を選択</string>
+    <string name="metric_string">メトリック（メートル）</string>
+    <string name="imperial_string">インペリアル（フィート）</string>
+    <string name="location_germany_string">ドイツ (7.5J)</string>
+    <string name="location_hongkong_string">香港 (2.0J)</string>
+    <string name="location_japan_string">日本 (0.98J)</string>
+    <string name="location_france_string">フランス (2.0J)</string>
+    <string name="location_desc_string">威力の上限を設定</string>
+    <string name="location_string">地域の設定</string>
+    <string name="location_uk_fullauto_string">イギリス (フルオート: 1.14J)</string>
+    <string name="location_uk_semiauto_string">イギリス (セミオート: 2.5J)</string>
+    <string name="velocity_string">初速</string>
+    <string name="location_disabled_string">無効</string>
+    <string name="textToast_calculationComplete_string">計算を完了しました</string>
+    <string name="textToast_largeValue_string">記入された数字が数字上限のため、数字の上限に変えました。</string>
+    <string name="textToast_noEntry">記入内容がないため、０にデフォルトしました。</string>
+    <string name="location_armenia_string">アルメニア (3.0J)</string>
+    <string name="location_canada_string">カナダ (5.0J)</string>
+    <string name="location_usa_string">アメリカ (2.8J)</string>
+    <string name="locationCurr_string">"現地: "</string>
+    <string name="buildVersion_string">ビルドバージョン</string>
+    <string name="copyright_string">コピーライト</string>
+    <string name="credits_string">クレジット</string>
+    <string name="theme_string">テーマ</string>
+</resources>

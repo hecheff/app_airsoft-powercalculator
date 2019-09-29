@@ -1,0 +1,103 @@
+--------------------------------------------------------------------------------
+Development Log for Airsoft BB Power Calculator Android App Project
+--------------------------------------------------------------------------------
+
+WORK IN PROGRESS
+    - Settings screen
+        - LIST: Language Toggle (Default, English, 日本語)
+        - LIST: Visual Style
+        - LIST: Region Select (for joule limit setting)
+            - Auto Get Location (use coarse/fine location?)
+    - New Style: Dark/Orange (think old JG)
+        - Mutliple visual styles for user to choose from?
+            - Orange/Dark
+            - iDroid (MGSV)
+            - OwTheEdge (Black/Red/White)
+            - ADA (Zone Of the Enders)
+    - Update localized settings strings
+    - Add Notch Support
+    - Set default popup/dialog box backgrounds
+    - Add Tablet View?
+    - Question: What would happen if the list exceeds the display height limit?
+        - Answer: Scrollbar auto-generated
+    - Add graphing method for projecting trajectory of BB when fired at certain angles?
+        - Adjust using another slider (0 ~ 45 degrees)
+    - To make space on the screen, move explanations into textboxes
+        - Press (?) icon to bring up description, touch screen again to close
+        - Highlight relevant section by darkening background surrounding it
+        - Animation: TBD
+        - Possible Reference: Fire Emblem Heroes Descriptions
+
+
+2019/07/07:
+    - Fixed settings reset issue when moving activities
+
+2019/06/25:
+    - Added Immersive Mode (Untested)
+
+
+2019/06/23: Ver. 0.52 (Version Code: 10)
+    - Established groundwork for graphing
+    - Moved "About" into Settings
+        - Added credits
+
+2019/06/22: Ver. 0.5 (Version Code: 9)
+    - Set Input Value Limit (6 digits or below)
+    - New countries added to list: Armenia, Canada, United States
+        - Updated BB rating for Germany
+    - Added output limits: m/s: 330, ft/s: 1082.68, J = 10.89 (as > speed of sound is physical impracticality)
+    - Toast text display restored
+        - Added text for large entry input
+        - Localized text outputs
+    - Registered for Google Play Dev (one-time registration)
+    - Bug fixed that shows joule limits exceeded at startup
+
+2019/06/20: Ver. 0.45 (Version Code: 8)
+    - Added animation to "Calculate" button
+    - Icons added per category in Preferences
+    - Padding issue in Preferences menu fixed
+    - Added UK to location list (with Full and Semi-auto)
+    - Fixed localization bug (Velocity -> 初速)
+
+2019/06/16:
+    - Fixed joule rating color bug (reverted to old code)
+
+2019/06/16: Ver. 0.42 (Version Code: 7)
+    - Added region select (some basics only)
+    - Fixed bug that shows imperial measurements initially (default should be set to metric)
+    - Settings page summaries now show current setting
+    - Optimized styles for scalability (incomplete)
+
+2019/06/15: Ver. 0.40 (Version Code: 6)
+    - Added on-demand refresh (input and default output swaps)
+    - Started groundwork for language toggle (WIP)
+    - Refined Style (Orange-on-dark)
+    - Fixed crash bug for SDK < 28 devices.
+        - Caused by retrieval of app version code (not compatible with < 28)
+
+2019/06/09: Ver. 0.25 (Version Code: 4)
+    - Created Orange-on-Dark style (WIP)
+    - Replaced default icon (check for Adaptive Icons)
+    - Migrated to Android X to properly enable settings/preferences page
+        - Settings page updated with dummy entries for now
+
+2019/06/08: Ver. 0.20 (Version Code: 3)
+    - Added effective range estimation (based on BB Distance drop)
+    - Added method for adjusting BB drop distance (0.1m - 1.0m)
+    - Layout updated (tightened to accommodate new content)
+    - Placeholders/dummy code added for ad banners (Will re-enable once AdMob can support Target SDK 28+)
+    - Got Pixel 1 (Q) emulator working (enabled Intel Virtualization in BIOS)
+    - Basic groundwork for Japanese (JA) L10n started.
+        - Quite a lot of technical terms, may need someone to proofread this at some point.
+
+2019/06/02: Ver. 0.15 (Version Code: 2)
+    - Improved layout compatibility across multiple device resolutions
+    - Added Settings/About placeholders (implementation after basics in place)
+
+2019/06/01: Ver. 0.10 (Version Code: 1)
+    - Project started. Basic groundwork laid out
+    - Basic calculations for joule ratings and muzzle velocity conversions
+
+2019/05/30: Pre-Production
+    - Basic planning for essentials, including immediate features and necessary studies to implement them
+    -

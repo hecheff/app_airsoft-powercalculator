@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">BB Power Calculator</string>
+    <string name="convert_string">Convert</string>
+    <string name="input_value_here_string">Input Value</string>
+    <string name="calculate_string">Calculate</string>
+    <string name="_0_12g_string" translatable="false">0.12g</string>
+    <string name="_0_20g_string">0.20g (Default)</string>
+    <string name="_0_00j_string" translatable="false">0.00J</string>
+    <string name="_0_25g_string" translatable="false">0.25g</string>
+    <string name="_0_28g_string" translatable="false">0.28g</string>
+    <string name="power_string">Power</string>
+    <string name="velocity_string">Velocity</string>
+    <string name="bb_mass_string">BB Mass</string>
+    <string name="select_input_string">Select Input</string>
+    <string name="bb_velocity_string">BB Init. Velocity</string>
+    <string name="bb_power_joules_string">BB Power (Joules)</string>
+    <string name="mps_inputUnit" translatable="false">m/s</string>
+    <string name="settings_string">Settings</string>
+    <string name="about_string">About</string>
+    <string name="options_coming_soon_string">Options Coming Soon!</string>
+    <string name="powerJoules_string">Power (Joules)</string>
+    <string name="mps_string" translatable="false">m/s</string>
+    <string name="ftps_string" translatable="false">ft/s</string>
+    <string name="j_string" translatable="false">J</string>
+    <string name="toJoule_string" translatable="false">toJoule</string>
+    <string name="toVelocity_string" translatable="false">toVelocity</string>
+    <string name="_0_00m_string" translatable="false">0.00m</string>
+    <string name="est_effective_range_string">Est. Effective Range</string>
+    <string name="bb_drop_tolerance_string">BB Drop Tolerance</string>
+    <string name="adjust_drop_dist_string">Adjust Drop Dist.</string>
+    <string name="_1_00m_string" translatable="false">1.00m</string>
+    <string name="_0_10m_string" translatable="false">0.10m</string>
+    <string name="estimate_disclaimer_string">"Effective range estimate is the BB's travel distance before it reaches the set drop distance when fired with no angle elevation at zero hop-up. Please keep mind that actual distance will be affected by factors such as wind, air resistance, hop-up amount and quality, inner barrel quality, etc."</string>
+    <string name="distance_unit_string">Distance Unit</string>
+    <string name="distance_unit_desc_string">Select the unit used for distance measurements.</string>
+    <string name="metric_string">Metric (Meters)</string>
+    <string name="imperial_string">Imperial (Feet)</string>
+    <string name="location_germany_string">Germany (7.5J)</string>
+    <string name="location_hongkong_string">Hong Kong (2.0J)</string>
+    <string name="location_japan_string">Japan (0.98J)</string>
+    <string name="location_france_string">France (2.0J)</string>
+    <string name="location_desc_string">Sets the value for power limit warnings.</string>
+    <string name="location_string">Set Current Location</string>
+    <string name="location_uk_fullauto_string">United Kingdom (Full Auto: 1.14J)</string>
+    <string name="location_uk_semiauto_string">United Kingdom (Semi-Auto: 2.5J)</string>
+    <string name="location_disabled_string">Disabled</string>
+    <string name="textToast_calculationComplete_string">Calculation Complete</string>
+    <string name="textToast_largeValue_string">Value input too large. Changed to max. value.</string>
+    <string name="textToast_noEntry">Value input is empty. Defaulting to 0.</string>
+    <string name="location_armenia_string">Armenia (3.0J)</string>
+    <string name="location_canada_string">Canada (5.0J)</string>
+    <string name="location_usa_string">United States (2.8J)</string>
+    <string name="locationCurr_string">"Location: "</string>
+    <string name="buildVersion_string">Build Version</string>
+    <string name="copyright_string">Copyright</string>
+    <string name="credits_string">Credits</string>
+    <string name="theme_string">Theme</string>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+</resources>

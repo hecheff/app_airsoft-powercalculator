@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  (MGS4/Deus Ex) -->
+    <color name="colorPrimary">#FFBD51</color>
+    <color name="colorPrimaryDark">#3E2001</color>
+    <color name="colorAccent">#FFAD31</color>
+    <color name="statusBar">#744C0F</color>
+
+    <color name="titleTextColor">#FFBD51</color>
+    <color name="textColor">#FFBD51</color>
+    <color name="backgroundColor">#3E2001</color>
+    <color name="backgroundColorDarker">#221000</color>
+
+    <color name="text_warning">#FF0000</color>
+
+
+    <!-- (MGSV iDroid) -->
+    <color name="iDroid_colorPrimary">#FFFFFF</color>
+    <color name="iDroid_colorPrimaryDark">#053251</color>
+    <color name="iDroid_colorAccent">#DCFEFF</color>
+    <color name="iDroid_statusBar">#2C6788</color>
+
+    <color name="iDroid_titleTextColor">#ECCB3F</color>
+    <color name="iDroid_textColor">#FFFFFF</color>
+    <color name="iDroid_backgroundColor">#38789A</color>
+    <color name="iDroid_backgroundColorDarker">#043049</color>
+
+    <color name="iDroid_text_warning">#FF0000</color>
+
+    <!-- DEFAULT COLORS -->
+    <!--
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#008577</color>
+
+    <color name="statusBar">#000000</color>
+
+    <color name="titleTextColor">#000000</color>
+    <color name="textColor">#000000</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="backgroundColorDarker">#FFFFFF</color>
+
+    <color name="text_warning">#FF0000</color>
+    -->
+
+    <!--
+    <color name="colorPrimary">#FFBD51</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#FFAD31</color>
+
+    <color name="title_color">#3E2001</color>
+    <color name="text_color">#FFBD51</color>
+
+    <color name="background_color">#3E2001</color>
+    -->
+    <!--
+    <item name="colorPrimary">#FFBD51</item>
+    <item name="colorPrimaryDark">#3E2001</item>
+    <item name="colorAccent">#FFAD31</item>
+    -->
+
+    <!-- DEFAULTS -->
+    <!--<color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>-->
+</resources>
